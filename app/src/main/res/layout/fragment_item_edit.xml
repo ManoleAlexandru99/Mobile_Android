@@ -15,9 +15,29 @@
 
     <EditText
         android:id="@+id/item_text"
+        android:hint="Titlu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="" />
+        android:text=""
+        />
+
+    <EditText
+        android:id="@+id/item_ascultari"
+        android:hint="Ascultari"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        />
+
+    <EditText
+        android:id="@+id/item_an"
+        android:hint="An"
+        android:layout_marginTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"

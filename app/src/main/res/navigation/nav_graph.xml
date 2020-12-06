@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/fragment_login"
-        android:name="com.example.manolealexandru_lab1.auth.login.LoginFragment"
+        android:name="com.example.pmlabs.auth.login.LoginFragment"
         android:label="@string/login"
         tools:layout="@layout/fragment_login" />
 
     <fragment
         android:id="@+id/fragment_item_list"
-        android:name="com.example.manolealexandru_lab1.todo.items.ItemListFragment"
+        android:name="com.example.pmlabs.todo.items.ItemListFragment"
         android:label="@string/item_list_fragment_label"
         tools:layout="@layout/fragment_item_list">
 
@@ -23,7 +23,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragment_item_edit"
-        android:name="com.example.manolealexandru_lab1.todo.item.ItemEditFragment"
+        android:name="com.example.pmlabs.todo.item.ItemEditFragment"
         android:label="@string/item_edit_fragment_label"
         tools:layout="@layout/fragment_item_edit">
 
